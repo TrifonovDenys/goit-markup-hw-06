@@ -17,7 +17,7 @@ body{
   color: var(--text-color);
   background-color: var(--site-background);
 } 
-input{
+input, textarea{
   outline: none;
 }
 h1,
