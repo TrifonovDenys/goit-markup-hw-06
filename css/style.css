@@ -624,6 +624,7 @@ background-color: #31D0AA;}
 }
 .form-field-privacy{
   flex-direction: row;
+  margin-bottom: 24px;
 }
 .form-input-privacy{
   /* width: 16px;
@@ -703,10 +704,13 @@ background-color: #31D0AA;}
   font-size: 12px;
   line-height: calc(24/12); 
   letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--site-background);
   padding: 7px 16px;
   width: 264px;
   margin-right: 24px;
+}
+.footer-form>input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form > button{
   display: flex;
